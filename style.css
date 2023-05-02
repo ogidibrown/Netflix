@@ -4,16 +4,16 @@
 }
 
 .main-container{
-    background-image: url('./img/bg.jpg');
-    height: 3000px;
-    z-index: 50;
+    background-color: black;
+    height: 2000px;
+   
     
 }
 
 
 nav{
     display: flex;
-    justify-content: space-around;
+    position: absolute;
     padding: 5px;
     height: 5rem;
     align-items: center;
@@ -29,6 +29,8 @@ nav{
     color: #ffffff;
     font-size: 15px;
     z-index: 50;
+    position: absolute;
+    left: 74rem;
     
 }
 
@@ -46,7 +48,9 @@ img{
     align-items: center;
     margin-bottom: 20px;
     z-index: 50;
-    margin-right: 30rem;
+    position: absolute;
+    left: 4rem;
+ 
 }
 
 .blur{
@@ -54,7 +58,7 @@ img{
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.654);
+    background-color: rgba(0, 0, 0, 0.703);
 
 }
 
@@ -65,7 +69,7 @@ img{
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 18rem;
+    left: 16rem;
     top: 20rem;
     font-family: sans-serif;
     line-height: 3.5rem;
@@ -103,7 +107,7 @@ img{
 .search{
     display: flex;
     position: absolute;
-    left: 26rem;
+    left: 23.5rem;
     top: 30rem;
     margin: 5px;
     align-items: center;
@@ -132,4 +136,66 @@ input{
     padding-left: 15px;
 }
 
+.hr{
+    background-color: #303030;
+    width: 100%;
+    height: 9px;
+    border:  none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 44rem;
+    position: absolute;
+}
 
+.sec{
+        display: flex;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        
+        
+}
+
+.head-sec{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        position: absolute;
+        left: 10rem;
+        top: 56rem;
+        font-family: sans-serif;
+        
+        
+}
+
+.enjoy{
+    
+    z-index: 50;
+    font-size: 3rem;
+    line-height: 5.5rem;
+    
+}
+
+.span3{
+    z-index: 50;
+    font-size: 1.6rem;
+    
+}
+.span4{
+    z-index: 50;
+    font-size: 1.4rem;
+}
+    
+.hr2{
+    background-color: #303030;
+    width: 100%;
+    height: 9px;
+    border:  none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 160rem;
+    position: absolute;
+}
