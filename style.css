@@ -5,7 +5,7 @@
 
 .main-container{
     background-color: black;
-    height: 2000px;
+    height: 6000px;
    
     
 }
@@ -123,10 +123,11 @@ input{
     height: 3.4rem;
     width: 25rem;
     font-family: sans-serif;
-    color: #fff;
     z-index: 50;
     margin-right: 10px;
-    border-color: #ffffff;
+    border: 1px solid #4e4c4c;
+    outline: none;
+    
 }
 
 ::-webkit-input-placeholder{
@@ -198,4 +199,162 @@ input{
     display: flex;
     margin-top: 160rem;
     position: absolute;
+}
+
+
+.sec2{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+    
+}
+
+.head-sec2{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: absolute;
+    left: 47rem;
+    top: 93rem;
+    font-family: sans-serif;
+    
+    
+}
+
+.download{
+
+z-index: 50;
+font-size: 3rem;
+line-height: 4rem;
+
+}
+
+.span5{
+z-index: 50;
+font-size: 1.6rem;
+
+}
+.span6{
+z-index: 50;
+font-size: 1.4rem;
+}
+
+.hr3{
+background-color: #303030;
+width: 100%;
+height: 9px;
+border:  none;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+margin-top: 235rem;
+position: absolute;
+}
+
+
+.sec3{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+    
+}
+
+.head-sec3{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: absolute;
+    left: 7rem;
+    top: 124rem;
+    font-family: sans-serif;
+    
+    
+}
+
+.everywhere{
+
+z-index: 50;
+font-size: 3rem;
+line-height: 4rem;
+
+}
+
+.span6{
+z-index: 50;
+font-size: 1.6rem;
+
+}
+.span7{
+z-index: 50;
+font-size: 1.4rem;
+}
+
+.hr4{
+background-color: #303030;
+width: 100%;
+height: 9px;
+border:  none;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+margin-top: 285rem;
+position: absolute;
+}
+
+.sec4{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+    
+}
+
+.head-sec4{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: absolute;
+    left: 47rem;
+    top: 93rem;
+    font-family: sans-serif;
+    
+    
+}
+
+.download{
+
+z-index: 50;
+font-size: 3rem;
+line-height: 4rem;
+
+}
+
+.span9{
+z-index: 50;
+font-size: 1.6rem;
+
+}
+.span10{
+z-index: 50;
+font-size: 1.4rem;
+}
+
+.hr5{
+background-color: #303030;
+width: 100%;
+height: 9px;
+border:  none;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+margin-top: 235rem;
+position: absolute;
 }
